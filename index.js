@@ -1,8 +1,7 @@
-function takeANumber(deliLine,name){
-  deliLine.push(name); 
-  
- return "Welcome, " + name + 
-  ". You are number " + deliLine.length + " in line."; 
+var counter = 0;
+function takeANumber(deliLine){
+   counter++;
+ return "Welcome, You are number " + counter +  " in line."; 
 }
 
 function nowServing(deliLine){
